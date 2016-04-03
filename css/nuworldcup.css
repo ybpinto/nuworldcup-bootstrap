@@ -28,12 +28,7 @@ body {
 
 .navbar {
     font-family: "Roboto";
-    opacity: 0.9;
-}
-
-.navbar-home {
-    border: 0;
-    background: rgba(255,255,255,0.0);
+    background: #000;
 }
 
 .navbar-nav {
