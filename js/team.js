@@ -40,18 +40,35 @@ var team = [["Radhika Kalra", "img/headshots/radhika"],
 			["Rafi Wasserman", "img/headshots/rafi"],
 			["Esteban Mercado", "img/headshots/esteban"],
 			["Jaiveer Kothari", "img/headshots/jaiveer"],
-			["Yoni Pinto", "img/headshots/yoni"]];
+			["Yoni Pinto", "img/headshots/yoni"]]
 
 	// Biopics addition code
-
 	for (var i = 0; i < 8; i++) {
 		$("#team-content").append("<div class=\"row\" id=\"row" + [i] + "\">");
 		var j = i*6;
 		for (j; j < (i+1)*6; j++) {
-			$("#row" + [i] + "").append("<div class=\"col-md-2 img-portfolio\"><img class=\"img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name team-content-color\">" + team[j][0] + "</p></div>");
+			if (j <= 39) {
+				console.log(j);
+				console.log(team[j]);
+				$("#row" + [i] + "").append("<div class=\"col-md-2 img-portfolio\"><img class=\"team-pic-img img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name team-content-color\">" + team[j][0] + "</p></div>");
+			}
 		};
-		// $("#team-content").append(
-		// 	"<div class=\"team-pic-div\"><img class=\"team-pic-img\" src=\"" + team[i][1] + ".jpg\"><p class=\"pic-name team-content-color\">" + team[i][0] + "</p></div>");
 	}
+
+	//Biopics hover code
+	$(".team-pic-img").hover(
+		function() {
+			var imgSrc = $(this).attr("src");
+			var newSrc = imgSrc.substring(0, imgSrc.indexOf(".")) + "2.jpg";
+
+			$(this).attr("src", newSrc);
+		}, 
+		function() {
+			var imgSrc = $(this).attr("src");
+			var newSrc = imgSrc.substring(0, imgSrc.search("2")) + ".jpg";
+
+			$(this).attr("src", newSrc);
+		}
+	);	
 
 });

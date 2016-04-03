@@ -84,6 +84,16 @@ header.carousel .fill {
     font-style: italic;
 }
 
+.team-pic-img {
+    border-radius: 50%;
+}
+
+.pic-name {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
 /* Footer Styles */
 
 footer {
