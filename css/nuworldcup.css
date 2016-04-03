@@ -9,16 +9,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-html,
-body {
+html {
     height: 100%;
 }
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    overflow-x: hidden;
 }
 
-.bg {
+.bg-home {
     background: url("../img/welcome-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -33,11 +33,12 @@ body {
 
 .navbar-home {
     border: 0;
-    background: rgba(0,0,0,0);
+    background: rgba(255,255,255,0.0);
 }
 
 .navbar-nav {
     float: right;
+    font-size: 14px;
 }
 
 .img-portfolio {
@@ -92,17 +93,28 @@ header.carousel .fill {
     font-style: italic;
 }
 
-.team-pic-img {
-    border-radius: 50%;
+h2.section-text {
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 50px;
 }
 
-.pic-name {
-    margin-top: 10px;
-    width: 100%;
-    text-align: center;
-    font-family: "Roboto Condensed";
+p.lead {
+    font-size: 24px;
+}
+
+p {
+    font-family: "Roboto";
     font-size: 16px;
 }
+
+li.section-text {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    line-height: 30px;
+    list-style-image: url("../img/dash.png");
+}
+
 
 /* Footer Styles */
 

@@ -1,0 +1,35 @@
+#about {
+	width: 100%;
+	background: url("../img/about-bg.jpg");
+	background-size: length;
+	color: black;
+}
+
+#about-content {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.inline-img {
+	width: 30%;
+	margin: 10px 20px 10px 0;
+	border-radius: 50%;
+}
+
+#gonzo-logo {
+	float: right;
+}
+
+#germany-logo {
+	float: left;
+}
+
+#brazil-logo {
+	float: right;
+	margin-left: 10px;
+}
+
+#gonzo-content {
+	width: 50%;
+	margin: 100px auto 0;
+}
