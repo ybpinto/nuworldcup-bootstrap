@@ -1,35 +1,21 @@
 #about {
-	width: 100%;
 	background: url("../img/about-bg.jpg");
 	background-size: length;
-	color: black;
 }
 
-#about-content {
-	width: 50%;
-	margin: 0 auto;
+#gonzo {
+	background: url("../img/gonzo-bg.jpg");
+	background-size: length;
 }
 
-.inline-img {
-	width: 30%;
-	margin: 10px 20px 10px 0;
-	border-radius: 50%;
+#about-images{
+	margin-top: 20px;
 }
 
-#gonzo-logo {
-	float: right;
+.rounded-img {
+    border-radius: 50%;
 }
 
-#germany-logo {
-	float: left;
-}
-
-#brazil-logo {
-	float: right;
-	margin-left: 10px;
-}
-
-#gonzo-content {
-	width: 50%;
-	margin: 100px auto 0;
+#gonzo-img {
+	width: 100%;
 }

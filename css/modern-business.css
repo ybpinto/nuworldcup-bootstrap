@@ -111,6 +111,10 @@ li.section-text {
     list-style-image: url("../img/dash.png");
 }
 
+.rounded-img {
+    border-radius: 50%;
+}
+
 /* Footer Styles */
 
 footer {
