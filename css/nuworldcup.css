@@ -7,7 +7,7 @@
 /* Global Styles */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,700);
 
 html {
     height: 100%;
@@ -15,6 +15,7 @@ html {
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: "Roboto";
 }
 
 .bg-home {
@@ -114,7 +115,7 @@ li.section-text {
 /* Footer Styles */
 
 footer {
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 /* Responsive Styles */

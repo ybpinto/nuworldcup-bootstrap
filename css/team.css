@@ -1,5 +1,6 @@
 .team-pic-img {
     border-radius: 50%;
+    display: table-cell;
 }
 
 .pic-name {

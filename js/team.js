@@ -43,17 +43,31 @@ var team = [["Radhika Kalra", "img/headshots/radhika"],
 			["Yoni Pinto", "img/headshots/yoni"]]
 
 	// Biopics addition code
-	for (var i = 0; i < 8; i++) {
-		$("#team-content").append("<div class=\"row\" id=\"row" + [i] + "\">");
-		var j = i*6;
-		for (j; j < (i+1)*6; j++) {
-			if (j <= 39) {
-				console.log(j);
-				console.log(team[j]);
-				$("#row" + [i] + "").append("<div class=\"col-md-2 img-portfolio\"><img class=\"team-pic-img img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name team-content-color\">" + team[j][0] + "</p></div>");
-			}
-		};
+	var isMobile = window.matchMedia("only screen and (max-width: 970px)");
+	console.log (isMobile.matches);
+	if (isMobile.matches) {
+		for (var i = 0; i <= 10; i++) {
+			$("#team-content").append("<div class=\"row\" id=\"row" + [i] + "\">");
+			var j = i*6;
+			for (j; j < (i+1)*6; j++) {
+				if (j <= 39) {
+					$("#row" + [i] + "").append("<div class=\"col-xs-3\"><img class=\"team-pic-img img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name\">" + team[j][0] + "</p></div>");
+				}
+			};
+		}
+	} else {
+		for (var i = 0; i <= 7; i++) {
+			$("#team-content").append("<div class=\"row\" id=\"row" + [i] + "\">");
+			var j = i*6;
+			for (j; j < (i+1)*6; j++) {
+				if (j <= 39) {
+					$("#row" + [i] + "").append("<div class=\"col-md-2\"><img class=\"team-pic-img img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name\">" + team[j][0] + "</p></div>");
+				}
+			};
+		}
+
 	}
+
 
 	//Biopics hover code
 	$(".team-pic-img").hover(
