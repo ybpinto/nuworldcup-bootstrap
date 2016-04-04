@@ -48,10 +48,10 @@ var team = [["Radhika Kalra", "img/headshots/radhika"],
 	if (isMobile.matches) {
 		for (var i = 0; i <= 10; i++) {
 			$("#team-content").append("<div class=\"row\" id=\"row" + [i] + "\">");
-			var j = i*6;
-			for (j; j < (i+1)*6; j++) {
+			var j = i*4;
+			for (j; j < (i+1)*4; j++) {
 				if (j <= 39) {
-					$("#row" + [i] + "").append("<div class=\"col-xs-3\"><img class=\"team-pic-img img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name\">" + team[j][0] + "</p></div>");
+					$("#row" + [i] + "").append("<div class=\"team-pic-div col-xs-3\"><img class=\"team-pic-img img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name\">" + team[j][0] + "</p></div>");
 				}
 			};
 		}
@@ -61,7 +61,7 @@ var team = [["Radhika Kalra", "img/headshots/radhika"],
 			var j = i*6;
 			for (j; j < (i+1)*6; j++) {
 				if (j <= 39) {
-					$("#row" + [i] + "").append("<div class=\"col-md-2\"><img class=\"team-pic-img img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name\">" + team[j][0] + "</p></div>");
+					$("#row" + [i] + "").append("<div class=\"team-pic-div col-md-2\"><img class=\"team-pic-img img-responsive\" src=\"" + team[j][1] + ".jpg\"><p class=\"pic-name\">" + team[j][0] + "</p></div>");
 				}
 			};
 		}

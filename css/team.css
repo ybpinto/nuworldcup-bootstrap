@@ -12,11 +12,7 @@
 }
 
 @media(max-width: 991px) {
-	.team-pic-img {
-		margin-bottom: 30px;
-	}
-
-	.pic-name {
-		font-size: 12px;
+	.team-pic-div {
+		margin-bottom: 10px;
 	}
 }
