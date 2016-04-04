@@ -6,7 +6,7 @@
 
 /* Global Styles */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,700);
 
 html {
@@ -18,7 +18,7 @@ body {
     font-family: "Roboto";
 }
 
-.bg-home {
+#home {
     background: url("../img/welcome-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
