@@ -5,3 +5,32 @@
 .table-body {
 	font-weight: 300;
 }
+
+.fixture-row {
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.fixture-header {
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+
+.score {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.game-identifier {
+	font-size: 16px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.fixture-team {
+	font-size:28px;
+	text-transform: uppercase;	
+}
