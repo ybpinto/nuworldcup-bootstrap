@@ -21,6 +21,10 @@ a {
 	font-weight: 300;
 }
 
+.fixture-group-title {
+	margin-bottom: 10px;
+}
+
 .score {
 	font-weight: bold;
 	font-size: 26px;
