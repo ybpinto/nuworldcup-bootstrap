@@ -2,21 +2,23 @@
 	font-weight: 700;
 }
 
+a {
+	color: black;
+}
+
 .table-body {
 	font-weight: 300;
 }
 
-.fixture-row {
-	font-size: 20px;
-	margin-top: 20px;
-	text-align: center;
-	font-weight: 300;
+.group-row {
+	margin-bottom: 30px;
 }
 
-.fixture-header {
-	font-weight: bold;
-	text-align: center;
+.fixture-row {
 	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: 300;
 }
 
 .score {
@@ -42,5 +44,3 @@
 .flag-right {
 	float: right;
 }
-
-@
