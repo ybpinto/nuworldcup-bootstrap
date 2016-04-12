@@ -88,10 +88,25 @@ a:hover, a:visited, a:active, a:link {
 	float: right;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
 	#sidebar {
-		display: none;
+		right: 20px;
 	}
+
+	.main-li {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.li-2 {
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.ul-3 {
+		font-size: 12px;
+	}
+
 
 	.game-identifier {
 		font-size: 12px;
@@ -102,7 +117,11 @@ a:hover, a:visited, a:active, a:link {
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
+	#sidebar {
+		display: none;
+	}
+
 	.game-identifier {
 		font-size: 10px;
 	}

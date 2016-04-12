@@ -127,6 +127,12 @@ footer {
     }
 }
 
+@media(max-width: 900px) {
+    .navbar-nav {
+        font-size: 12px;
+    }
+}
+
 @media(max-width:767px) {
     .img-portfolio {
         margin-bottom: 15px;
