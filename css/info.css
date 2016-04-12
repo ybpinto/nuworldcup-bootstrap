@@ -1,3 +1,25 @@
+#sidebar {
+	position: fixed;
+	top: 60px;
+}
+
+ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+li {
+	display: none;
+}
+
+.main-li {
+	display: list-item;
+}
+
+.lead {
+	text-align: center;
+}
+
 .table-head {
 	font-weight: 700;
 }
@@ -8,10 +30,6 @@ a {
 
 .table-body {
 	font-weight: 300;
-}
-
-.group-row {
-	margin-bottom: 30px;
 }
 
 .fixture-row {
