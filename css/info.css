@@ -1,19 +1,36 @@
 #sidebar {
 	position: fixed;
 	top: 60px;
+	right: 30px;
+	text-align: right;
 }
 
 ul {
 	padding-left: 0;
 	list-style-type: none;
-}
-
-li {
 	display: none;
 }
 
-.main-li {
+ul.nav {
 	display: list-item;
+}
+
+.main-ul {
+	display: list-item;
+}
+
+.main-li {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.li-2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.ul-3 {
+	font-size: 16px;
 }
 
 .lead {
@@ -26,6 +43,10 @@ li {
 
 a {
 	color: black;
+}
+
+a:hover, a:visited, a:active, a:link {
+	text-decoration: none;
 }
 
 .table-body {
@@ -65,4 +86,32 @@ a {
 
 .flag-right {
 	float: right;
+}
+
+@media screen and (max-width: 1300px) {
+	#sidebar {
+		display: none;
+	}
+
+	.game-identifier {
+		font-size: 12px;
+	}
+
+	.fixture-team {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.game-identifier {
+		font-size: 10px;
+	}
+
+	.fixture-team {
+		font-size: 12px;
+	}
+
+	.fixture-score {
+		font-size: 14px;
+	}
 }
