@@ -53,6 +53,14 @@ a:hover, a:visited, a:active, a:link {
 	font-weight: 300;
 }
 
+.points-head {
+	text-align: right;
+}
+
+.points {
+	text-align: right;
+}
+
 .fixture-row {
 	font-size: 20px;
 	margin-bottom: 30px;
