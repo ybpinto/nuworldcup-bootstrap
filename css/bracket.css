@@ -54,3 +54,7 @@ li.game-bottom{
   font-size: 30px;
   font-weight: bold;
 }
+
+.round-5 {
+  display: none;
+}
