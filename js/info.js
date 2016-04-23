@@ -60,6 +60,50 @@ var field4 = "Field 4 - Norris";
 var field5 = "Field 5 - Kind";
 var field6 = "Field 6 - Intl. Office";
 
+var points = 	[
+					["#group-a", 
+						["Cayman Islands", 4],
+						["Turkey", 4 ],
+						["Puerto Rico", 3]
+						["Sudan", 0]],
+					["#group-b", 
+						["India", 4],
+						["Vietnam", 4 ],
+						["Thailand", 3]
+						["Spain", 0]],
+					["#group-c", 
+						["Ivory Coast", 4],
+						["Iran", 4 ],
+						["Iceland", 3]
+						["Italy", 0]],
+					["#group-d", 
+						["Nigeria", 4],
+						["USA", 4 ],
+						["San Marino", 3]
+						["South Korea", 0]],
+					["#group-e", 
+						["Pakistan", 4],
+						["Wales", 4 ],
+						["Denmark", 3]
+						["England", 0]],
+					["#group-f", 
+						["Argentina", 4],
+						["Bahamas", 4 ],
+						["Peru", 3]
+						["Hong Kong", 0]],
+					["#group-g", 
+						["Chile", 4],
+						["France", 4 ],
+						["Brazil", 3]
+						["China", 0]],
+					["#group-h", 
+						["Colombia", 4],
+						["Netherlands", 4 ],
+						["Solomon Islands", 3]
+						["Kazakhstan", 0]]
+
+				];
+
 var groups = 	[
 					["#group-a", 
 						[field1, "April 22, 5:30 PM", "Cayman Islands", "ky", "Puerto Rico", "pr", "2 : 1"],
