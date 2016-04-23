@@ -61,3 +61,8 @@ li.game-bottom{
 .round-5 {
   display: none;
 }
+
+.final-title {
+  text-align: center;
+  margin-bottom: 20px;
+}

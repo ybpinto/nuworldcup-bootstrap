@@ -80,7 +80,13 @@ a:hover, a:visited, a:active, a:link {
 .game-identifier {
 	font-size: 16px;
 	text-align: left;
-	margin: 0 auto;
+/*	margin: 0 auto;
+*/}
+
+.final {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .fixture-team {
