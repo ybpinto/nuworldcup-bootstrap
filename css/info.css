@@ -5,6 +5,11 @@
 	text-align: right;
 }
 
+#winnercup {
+	width: 50%;
+	display: inline-block;
+}
+
 ul {
 	padding-left: 0;
 	list-style-type: none;

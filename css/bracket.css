@@ -25,6 +25,10 @@ main{
  *  General Styles
 */
 
+.round-5 {
+  width: 300px;
+}
+
 li.game{
   padding-left:20px;
 }
