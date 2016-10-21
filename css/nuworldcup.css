@@ -19,7 +19,7 @@ body {
 }
 
 #home {
-    background: url("../img/welcome-bg.jpg") no-repeat center center fixed;
+    background: url("../img/wickedcupbackground.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -28,12 +28,19 @@ body {
 
 .navbar {
     font-family: "Roboto";
-    background: #000;
+    background: rgb(35,31,32);
 }
 
 .navbar-nav {
     float: right;
     font-size: 14px;
+}
+
+.navbar-inverse .wicked:focus,
+.navbar-inverse .wicked:hover
+{
+    color:rgb(244,132,48);
+    background-color:transparent
 }
 
 .img-portfolio {
