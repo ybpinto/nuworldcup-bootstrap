@@ -1,3 +1,1 @@
-# [NU World Cup](http://nuworldcup.com/)
-
-Built using the Modern Business template from [StartBootstrap.com](http://startbootstrap.com/template-overviews/modern-business/).
+# NU World Cup's 2016 website resources. Not hosted on any live URL any longer.
